@@ -1,0 +1,2956 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+.nav-link.active {
+    color: red;
+
+}
+.heder {
+    width: 100%;
+    height: auto;
+}
+
+.heder_menubar {
+    width: 100%;
+    float: left;
+    height: 120px;
+    background-color: #FFFFFF;
+
+}
+
+.menu_list {
+
+    width: 45%;
+    height: 120px;
+    float: left;
+
+}
+
+
+.menu_logo {
+
+    width: 20%;
+    height: 120px;
+    float: left;
+
+}
+
+.menu_icon {
+
+    width: 35%;
+    height: 120px;
+    float: left;
+
+}
+
+.menu_list ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+
+}
+
+.menu_list li {
+    font-size: 21px;
+    color: #2E4C5F;
+    font-weight: 600;
+    margin-top: 45px;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.menu_list ul :hover {
+    color: red;
+    cursor: pointer;
+    border: none;
+    text-decoration: underline;
+
+}
+
+.menu_logo img {
+    float: right;
+    margin-right: 10px;
+    width: 90%;
+    height: 90%;
+    margin-top: 10px;
+}
+
+.menu_icon ul {
+    display: flex;
+    float: right;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.menu_icon ul li {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.menu_icon i {
+    font-size: 25px;
+    color: red;
+}
+
+.menu_icon ul .bar {
+    display: none;
+}
+.menu_list a{
+   text-decoration: none;
+}
+.menu_list a{
+    color:#325697;
+}
+
+.menu_icon ul li:hover {
+    background-color: #E31E24;
+
+
+}
+
+.menu_icon ul li:hover i {
+    color: white;
+}
+
+
+
+@media(max-width:668px) {
+    .menu_icon ul .bar {
+        display: flex;
+        background-color: rgb(133, 79, 79);
+        color: white;
+
+
+    }
+
+
+    .menu_list ul li {
+        display: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .menu_logo img {
+
+        width: 90%;
+        height: 80%;
+        margin-right: 220px;
+
+    }
+
+    .heder_menubar {
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
+.main_content {
+    height: 1200px;
+    width: 100%;
+
+}
+
+.main_content_img {
+    float: left;
+    width: 100%;
+    height: 650px;
+
+    background-image: url('bodybuildr.png');
+    background-size: cover;
+    /* filter: blur(1px); */
+    background-color: hsla(216, 15%, 20%, 0.2);
+}
+
+.main_content_img h2 {
+    color: white;
+    font-size: 120px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Inter', sans-serif;
+    line-height: 150px;
+}
+
+.main_content_img p {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.main_content_img button {
+    /* margin-top: 20px; */
+    height: 55px;
+    width: 280px;
+    align-content: center;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-family: inherit;
+    margin-top: 60px;
+}
+
+.main_content_img button:hover {
+    background-color: #FFFFFF;
+    color: brown;
+    cursor: pointer;
+}
+
+
+@media(max-width:668px) {
+    .main_content_img h2 {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 70px;
+        font-weight: 400;
+        line-height: 60px;
+    }
+
+    .main_content_img p {
+        font-size: 22px;
+        align-items: center;
+        margin-top: 10px;
+        height: 50%;
+        width: 100%;
+    }
+
+    .main_content_img {
+        width: 100%;
+        height: 450px;
+        background-size: cover;
+    }
+
+    .main_content_img button {
+        margin-top: -105px;
+        height: 25px;
+        width: 150px;
+        align-content: center;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        background-color: red;
+        font-size: 15px;
+        font-family: inherit;
+
+    }
+
+    .main_content_img button {
+        margin-top: 60px;
+        margin-left: -520px;
+        height: 50px;
+        width: 160px;
+        align-content: center;
+        border: none;
+        border-radius: 25px;
+        color: white;
+        background-color: red;
+        font-size: 18px;
+        font-family: inherit;
+    }
+
+}
+
+
+
+
+
+hr {
+    height: 10px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #FFFFFF;
+
+}
+
+.main_content_img_bottom {
+    background-color: #1B2D39;
+    width: 100%;
+    height: 100%;
+    /* align-content: center; */
+}
+
+.text1 {
+    float: left;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 160px;
+
+}
+
+.text2 {
+    float: right;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 150px;
+
+}
+
+.span {
+    color: red;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+@media(max-width:668px) {
+    .text1 {
+        font-size: 20px;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+
+    }
+
+    .text2 {
+        font-size: 20px;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    button {
+        position: relative;
+        bottom: 40px;
+        left: 50%;
+        width: 100px;
+        height: 20px;
+        font-size: 15px;
+
+    }
+}
+
+.boxess {
+    width: 100%;
+    height: 420px;
+
+    margin-top: 100px;
+
+}
+
+.box1 {
+    width: 15%;
+    height: 160px;
+    float: left;
+    background: hsl(203, 35%, 26%);
+    display: flex;
+    margin-left: 8%;
+    margin-right: 0px;
+
+}
+
+.logo {
+    height: 100%;
+    width: 40%;
+    float: left;
+
+
+
+}
+
+.text {
+    height: 100%;
+    width: 60%;
+    float: left;
+
+}
+
+.logo {
+    font-size: 50px;
+
+}
+
+.logo i {
+    margin-top: 60px;
+    margin-left: 15px;
+    margin-right: 0px;
+
+    color: white;
+}
+
+.text {
+    font-size: 26px;
+    text-align: center;
+    color: #B4BDC3;
+
+}
+
+.text p {
+    margin-top: 36px;
+
+    color: white;
+    text-align: center;
+}
+
+#hert i {
+    color: red;
+}
+
+.box1:hover {
+    cursor: pointer;
+}
+
+@media(max-width:668px) {
+    .box1 {
+        width: 45%;
+        height: 160px;
+        float: left;
+        background: hsl(203, 35%, 26%);
+        display: flex;
+        margin-left: 3%;
+        margin-bottom: 3%;
+
+
+
+    }
+
+    /* .main_content_img_bottom {
+        height: auto;
+    } */
+
+    .logo {
+        font-size: 35px;
+        margin-top: -50px;
+        ;
+        height: 30%;
+        width: 100%;
+        float: left;
+        margin-left: 90px;
+        margin-bottom: 0px;
+
+    }
+
+    .text {
+        width: 250px;
+        height: 60%;
+        font-size: 15px;
+        margin-top: 40px;
+        font-size: 20px;
+        margin-right: 90px;
+
+        margin-left: -85px;
+        color: #B4BDC3;
+
+    }
+
+    .text p:hover {
+        color: white;
+        cursor: pointer;
+    }
+
+
+}
+
+.text1:hover {
+    cursor: pointer;
+}
+
+.text2:hover {
+    cursor: pointer;
+}
+
+.section_three {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.section_three_containt {
+    width: 100%;
+    height: auto;
+    float: left;
+
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("background-gym.jpg") center/cover no-repeat;
+
+}
+
+.section_three_containt2 {
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: #FFFFFF;
+
+}
+
+.first_content {
+    background-color: #E31E24;
+    width: 400px;
+    height: 33px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 5%;
+    color: #FFFFFF;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.first_content h4 {
+    margin-top: 10px;
+
+}
+
+@media(max-width:668px) {
+    .first_content {
+
+        text-align: center;
+        margin-left: 20%;
+
+
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+}
+
+.image_continer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid black;
+    box-sizing: border-box;
+    float: center;
+    margin-top: 10%;
+}
+
+.image_continer:hover {
+    cursor: pointer;
+}
+
+.para_text p {
+
+    text-align: center;
+    margin-top: 250px;
+    font-size: 55px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #2E4C5F;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+
+    text-transform: uppercase;
+}
+
+@media (max-width:668px) {
+    .para_text p {
+        font-size: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+
+
+}
+
+.twodhr hr {
+    height: 10px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #2E3639;
+    margin-top: 2%;
+}
+
+.text21 {
+    float: left;
+    margin-top: 20px;
+    font-size: 35px;
+    margin-left: 10%;
+    color: #000000;
+
+}
+
+.text22 {
+    float: right;
+    margin-top: 20px;
+    font-size: 35px;
+    margin-right: 12%;
+    color: #000000;
+}
+
+.text22 i {
+    font-size: 18px;
+    color: red;
+    margin-left: 5px;
+}
+
+.text22,
+.text21:hover {
+    cursor: pointer;
+}
+
+@media(max-width:668px) {
+
+    .text22,
+    .text21 {
+        margin-left: 0px;
+        font-size: 25px;
+        margin-right: 0px;
+        margin-top: 10px
+    }
+
+}
+
+/* .section_three_containt2 {
+    margin-left: 10%; 
+    margin-right:10%;
+
+} */
+/* .gym_image1{
+    width: 20%;
+    height: 300px;
+    background-color: chocolate;
+    background-image:url('https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') ;
+    background-size: cover;
+    float: left;
+  
+  
+} */
+
+.imagecontainer111 {
+    width: 80%;
+    height: 1100px;
+
+
+    margin-left: 10%;
+    /* margin-top: -120px; */
+    /* background-color: red; */
+}
+
+.imagecontainer_img1 {
+    width: 28%;
+    height: 350px;
+    background-image: url('https://mascofitbrand.com/wp-content/uploads/elementor/thumbs/Untitled-design-2024-11-19T153314.734-qxa6qfeo54rkl3oi02olos8rd9ar6a2nb7d3221lws.png');
+    background-size: cover;
+    float: left;
+    margin: 30px;
+    filter: blur(2px);
+    z-index: 1;
+    transition: filter 0.3s ease;
+
+}
+
+.imagecontainer_img2 {
+    width: 28%;
+    height: 350px;
+    background-image: url('https://mascofitbrand.com/wp-content/uploads/elementor/thumbs/Untitled-design-2024-11-19T153427.824-qxa6ug5tdm9q91u8it95crpqulha3o1b73tuyo2zak.png');
+    background-size: cover;
+    float: left;
+    margin: 30px;
+    filter: blur(2px);
+    z-index: 1;
+    transition: filter 0.3s ease;
+
+}
+
+.imagecontainer_img3 {
+    width: 28%;
+    height: 350px;
+    background-image: url('https://mascofitbrand.com/wp-content/uploads/elementor/thumbs/Untitled-design-2024-11-19T153230.866-qxa6xx6cml0v56sn8taj2e61uud3jetm0alfsgxmb0.png');
+    background-size: cover;
+    float: left;
+    margin: 30px;
+    filter: blur(2px);
+    z-index: 1;
+    transition: filter 0.3s ease;
+
+}
+
+.imagecontainer_img4 {
+    width: 28%;
+    height: 350px;
+    background-image: url('https://mascofitbrand.com/wp-content/uploads/elementor/thumbs/Untitled-design-2024-11-19T153515.967-qxa6yofo4s26hvp1tn2pkpaf30mqqmtts1iipht7ak.png');
+    background-size: cover;
+    float: left;
+    margin: 30px;
+    filter: blur(2px);
+    z-index: 1;
+    transition: filter 0.3s ease;
+
+}
+
+.imagecontainer_img5 {
+    width: 28%;
+    height: 350px;
+    background-image: url('https://mascofitbrand.com/wp-content/uploads/elementor/thumbs/Untitled-design-2024-11-19T153616.480-qxa6zsuqanlid42c9mjo1x38ml3ixmaa9lkece59v0.png');
+    background-size: cover;
+    float: left;
+    margin: 30px;
+    filter: blur(2px);
+    z-index: 1;
+    transition: filter 0.3s ease;
+
+}
+
+.imagecontainer_img6 {
+    width: 28%;
+    height: 350px;
+    background-image: url('https://mascofitbrand.com/wp-content/uploads/elementor/thumbs/Untitled-design-2024-11-19T154927.817-qxa78xu8qo3v8msgwkr3am2kjg1zrokc6twcb8lhd8.png');
+    background-size: cover;
+    float: left;
+    margin: 30px;
+    filter: blur(3px);
+    z-index: 1;
+    transition: filter 0.3s ease;
+
+}
+
+.imagecontainer_img1 h6 {
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 200px;
+}
+
+@media(max-width:668px) {
+    .imagecontainer111 {
+        margin: 0px;
+        height: auto;
+        overflow: visible;
+        width: 90%;
+        position: relative;
+        left: 5%;
+        overflow: hidden;
+    }
+
+    .imagecontainer_img1 {
+        width: 100%;
+        height: 350px;
+        margin: 0px;
+        margin-top: 20px;
+    }
+
+    .imagecontainer_img2 {
+        width: 100%;
+        height: 350px;
+        margin: 0px;
+        margin-top: 15px;
+
+    }
+
+    .imagecontainer_img3 {
+        width: 100%;
+        height: 350px;
+        margin: 0px;
+        margin-top: 15px;
+    }
+
+    .imagecontainer_img4 {
+        width: 100%;
+        height: 350px;
+        margin: 0px;
+        margin-top: 15px;
+    }
+
+    .imagecontainer_img5 {
+        width: 100%;
+        height: 350px;
+        margin: 0px;
+        margin-top: 15px;
+    }
+
+    .imagecontainer_img6 {
+        width: 100%;
+        height: 350px;
+        margin: 0px;
+        margin-top: 15px;
+
+    }
+
+
+}
+
+
+.imagecontainer_img1:hover,
+.imagecontainer_img2:hover,
+.imagecontainer_img3:hover,
+.imagecontainer_img4:hover,
+.imagecontainer_img5:hover,
+.imagecontainer_img6:hover {
+    filter: blur(0px);
+    cursor: pointer;
+
+}
+
+.imagecontainer_img2 h6 {
+    z-index: 50;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    font-weight: 800;
+
+}
+
+.imagecontainer_img3 h6 {
+    z-index: 50;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    font-weight: 800;
+
+}
+
+.imagecontainer_img4 h6 {
+    z-index: 50;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    font-weight: 800;
+
+}
+
+.imagecontainer_img5 h6 {
+    z-index: 50;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    font-weight: 800;
+
+}
+
+.imagecontainer_img6 h6 {
+    z-index: 50;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    font-weight: 800;
+
+}
+
+
+.Marquee_Section {
+    width: 100%;
+    height: 1500px;
+
+
+}
+
+
+.scroll_section {
+
+    position: relative;
+    bottom: 100px;
+    top: 100px;
+    float: left;
+    width: 100%;
+    height: 800px;
+    background-image: url('https://mascofitbrand.com/wp-content/uploads/2025/01/Untitled-design-2024-08-20T161204.637.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.scroll_containt {
+    /* z-index: 999; */
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+.first_text p {
+    width: 17%;
+    height: 4%;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    font-weight: 550;
+    left: 43%;
+    top: 150px;
+
+}
+
+.second_text h1 {
+    text-align: center;
+    position: relative;
+    top: 180px;
+    font-weight: 1000px;
+    color: #ffffff;
+}
+
+.third_text span {
+    color: red;
+    font-weight: 900px;
+}
+
+.third_text h4 {
+    text-align: center;
+    position: relative;
+    top: 180px;
+    font-weight: 1000px;
+    color: #ffffff;
+
+}
+
+.marquee {
+    position: relative;
+    top: 400px;
+    font-weight: 1200;
+    font-style: italic;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    margin: 0;
+
+
+}
+
+.Marquee_Section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.red {
+    color: red;
+}
+
+.white {
+    color: #ffffff;
+}
+
+@media(max-width:668px) {
+    .scroll_section {
+
+
+        float: left;
+        width: 100%;
+        height: 500px;
+    }
+
+    .first_text p {
+        width: 20%;
+        height: 4%;
+        background-color: red;
+        color: white;
+        font-size: 15px;
+        position: relative;
+        text-align: center;
+        font-weight: 300;
+        left: 43%;
+        top: 50px;
+
+    }
+
+    .second_text h1 {
+        text-align: center;
+        position: relative;
+        top: 120px;
+        font-weight: 900;
+        color: #ffffff;
+        font-size: 65px;
+        letter-spacing: 1px;
+    }
+
+    .third_text h4 {
+        text-align: center;
+        position: relative;
+        top: 150px;
+        font-weight: 1000px;
+        color: #ffffff;
+        font-size: 33px;
+
+    }
+
+    .marquee {
+        position: relative;
+        top: 170px;
+        font-weight: 1200;
+        font-style: italic;
+        font-size: 45px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1px;
+        margin: 0;
+
+
+    }
+
+
+}
+
+.main_content::after,
+.section_three::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* FIX 1 */
+.scroll_section {
+    position: relative;
+    top: 5px;
+    bottom: 5px;
+    float: left;
+}
+
+
+
+.fourth_section_container {
+    width: 100%;
+    height: 1200px;
+
+    float: left;
+
+}
+
+.fourth_section_part1 {
+    width: 100%;
+    height: 50%;
+    float: left;
+
+}
+
+
+
+.fourth_section_part1_image1 {
+    width: 50%;
+    height: 80%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+
+    background-image: url('https://mascofitbrand.com/wp-content/uploads/elementor/thumbs/Untitled-design-2024-11-19T153314.734-qxa6qfeo54rkl3oi02olos8rd9ar6a2nb7d3221lws.png');
+    background-size: cover;
+
+}
+
+.fourth_section_part1_image1_heading1 h1 {
+    color: red;
+    font-size: 80px;
+    margin-top: 400px;
+    margin-left: -40px;
+    font-weight: 800;
+    /* position: relative;
+    bottom: 5px; */
+}
+
+.fourth_section_part1_text1 {
+    width: 40%;
+    height: 90%;
+    float: right;
+
+    margin-top: 5%;
+}
+
+.fourth_section_part1_text1_hr hr {
+    width: 80%;
+    text-align: center;
+    height: 3px;
+    background-color: red;
+    color: red;
+}
+
+.fourth_section_part1_heading1 h1 {
+    color: red;
+    margin-left: 10%;
+    font-size: 40px;
+    font-weight: 1200;
+}
+
+.fourth_section_part1_para1 p {
+    color: #2e4c5f;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+    /* ⭐ main weight */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* line-height: 1.2; */
+    color: #2f4b5a;
+    margin-left: 60px;
+
+
+}
+
+.fourth_section_part1_para2 p {
+    color: #6e8390;
+
+    font-size: 26px;
+    margin-left: 60px;
+    font-weight: 400;
+    margin-top: 20px;
+
+
+    color: #2E4C5F;
+
+    font-family: "Merriweather", serif;
+
+
+}
+
+@media(max-width:668px) {
+    .fourth_section_part1_text1 {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .fourth_section_part1_heading1 h1 {
+        color: red;
+        margin-left: 10%;
+        font-size: 30px;
+        margin-top: 25px;
+        font-weight: 1200;
+    }
+
+    .fourth_section_part1_text1_hr hr {
+        width: 80%;
+        text-align: center;
+        height: 2px;
+        background-color: red;
+        color: red;
+    }
+
+    .fourth_section_part1_para1 p {
+
+        font-size: 25px;
+        font-weight: 300;
+        text-align: center;
+        font-style: italic;
+        /* ⭐ main weight */
+        text-transform: uppercase;
+        letter-spacing: 0px;
+        color: #2f4b5a;
+        margin: 0px;
+        margin-left: -5px;
+        margin-top: 20px;
+        justify-content: center;
+
+    }
+
+    .fourth_section_part1_para2 p {
+        color: #6e8390;
+
+        font-size: 15px;
+        justify-content: center;
+        margin-left: 20px;
+        /* text-align: center; */
+
+
+        font-weight: 400;
+        margin-bottom: 40px;
+
+
+
+
+    }
+
+    .fourth_section_part1_image1 {
+        width: 90%;
+        height: 400px;
+    }
+
+    .fourth_section_part1_image1_heading1 h1 {
+        visibility: hidden;
+
+
+        font-weight: 800;
+
+    }
+
+
+}
+
+
+.fourth_section_part2 {
+    width: 100%;
+    height: 50%;
+    float: left;
+
+
+}
+
+.fourth_section_part2_text2 {
+    width: 40%;
+    height: 90%;
+    float: left;
+
+    margin-top: 4%;
+
+
+
+}
+
+
+
+
+
+.fourth_section_part2_text2_hr hr {
+    width: 80%;
+    text-align: center;
+    height: 3px;
+    background-color: red;
+    color: red;
+}
+
+.fourth_section_part2_heading21 h1 {
+    color: red;
+    margin-left: 10%;
+    font-size: 40px;
+    font-weight: 1200;
+}
+
+.fourth_section_part2_para21 p {
+    color: #2e4c5f;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+    /* ⭐ main weight */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* line-height: 1.2; */
+    color: #2f4b5a;
+    margin-left: 60px;
+
+
+}
+
+.fourth_section_part2_para22 p {
+    color: #6e8390;
+
+    font-size: 26px;
+    margin-left: 60px;
+    font-weight: 400;
+    margin-top: 20px;
+
+
+    color: #2E4C5F;
+
+    font-family: "Merriweather", serif;
+
+
+}
+
+
+
+
+
+.fourt_section_part2_image21 {
+    width: 60%;
+    height: 90%;
+    float: right;
+
+
+
+
+}
+
+.fourt_section_part2_container_image2 {
+    width: 80%;
+    height: 90%;
+    background-image: url('https://mascofitbrand.com/wp-content/uploads/elementor/thumbs/Untitled-design-2024-11-19T153427.824-qxa6ug5tdm9q91u8it95crpqulha3o1b73tuyo2zak.png');
+    background-size: cover;
+
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+
+}
+
+
+
+
+
+.fourth_section_part2_image2_heading2 h1 {
+    color: red;
+    font-size: 80px;
+    margin-top: 400px;
+    margin-left: -40px;
+    font-weight: 800;
+    /* position: relative;
+    bottom: 5px; */
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:668px) {
+    .fourth_section_part2_text2 {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .fourth_section_part2_heading21 h1 {
+        color: red;
+        margin-left: 10%;
+        font-size: 30px;
+        margin-top: 25px;
+        font-weight: 1200;
+        margin-top: 50px;
+    }
+
+    .fourth_section_part2_text2_hr hr {
+        width: 80%;
+        text-align: center;
+        height: 2px;
+        background-color: red;
+        color: red;
+        margin-top: 70px;
+    }
+
+    .fourth_section_part2_para21 p {
+
+        font-size: 25px;
+        font-weight: 300;
+        text-align: center;
+        font-style: italic;
+        /* ⭐ main weight */
+        text-transform: uppercase;
+        letter-spacing: 0px;
+        color: #2f4b5a;
+        margin: 0px;
+        margin-left: -5px;
+        margin-top: 20px;
+        justify-content: center;
+
+    }
+
+    .fourth_section_part2_para22 p {
+        color: #6e8390;
+
+        font-size: 15px;
+        justify-content: center;
+        margin-left: 20px;
+        /* text-align: center; */
+
+
+        font-weight: 400;
+
+
+
+
+    }
+
+    .fourt_section_part2_image21 {
+        width: 90%;
+        height: 400px;
+    }
+
+    .fourt_section_part2_container_image2 {
+        width: 95%;
+
+
+
+
+
+
+    }
+
+    .fourth_section_part2_image2_heading2 {
+        visibility: hidden;
+    }
+
+
+}
+
+.fifth_sec_all_containt {
+    width: 100%;
+    height: 1200px;
+    background-color: #233440;
+    float: left;
+}
+
+.heading_container_fifit_section {
+    height: 10%;
+    float: left;
+    width: 100%;
+
+
+}
+
+.first_main_heading_fifth_sec h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 1200;
+    color: #ffffff;
+    margin-top: 2%;
+    font-style: italic;
+
+}
+
+.second_main_heading_fifth_sec p {
+    color: #ffff;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 17px;
+    margin-top: 5px;
+
+}
+
+.fifth_sec_left {
+    width: 50%;
+    height: 1050px;
+    float: left;
+
+    margin-top: 80px;
+
+}
+
+.fifth_sec_right {
+    width: 50%;
+    height: 1050px;
+    float: right;
+
+    margin-top: 80px;
+}
+
+.left_fifth_sec1 {
+    width: 70%;
+    float: left;
+    height: 38%;
+    background-color: #ffffff;
+    margin-left: 25%;
+}
+
+.left_fifth_sec2 {
+    width: 70%;
+    float: left;
+    height: 45%;
+    background-color: #ffffff;
+    margin-left: 25%;
+    margin-top: 5%;
+
+}
+
+.right_fifth_sec_img {
+    float: left;
+    width: 70%;
+    height: 65%;
+    background-image: url('fifthsection.png');
+    background-size: cover;
+    margin-top: 10%;
+}
+
+.right_fifth_sec_button {
+    float: left;
+    width: 70%;
+    height: 15%;
+    margin-top: 1%;
+}
+
+.fifith_sec_button {
+    text-align: center;
+}
+
+.fifith_sec_button button {
+    width: 35%;
+    height: 40px;
+    text-align: center;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+}
+
+.first_fifth {
+    width: 100%;
+    height: 30%;
+    float: left;
+
+}
+
+.first_fifth i {
+    font-size: 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.second_fifth {
+    width: 100%;
+    height: 15%;
+    float: left;
+
+
+}
+
+.second_fifth h1 {
+    margin-left: 20px;
+    top: 20px;
+}
+
+.third_fifith {
+    width: 80%;
+    height: 55%;
+    float: left;
+
+}
+
+.third_fifith p {
+    font-size: 23px;
+    color: black;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.forth_fifith {
+    width: 20%;
+    float: left;
+    height: 55%;
+
+}
+
+.forth_fifith h1 {
+    color: red;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.fifith_sec_button button:hover {
+    cursor: pointer;
+    background-color: red;
+    color: #ffff;
+}
+
+.heding_content_fifth {
+    width: 100%;
+    height: 120px;
+
+
+}
+
+.heding_content_fifth i {
+    font-size: 90px;
+    margin-left: 20px;
+    color: #2E4C5F;
+}
+
+.hr hr {
+    height: 1px;
+    width: 90%;
+    background-color: black;
+    color: black;
+
+}
+
+.hr {
+    margin-right: 10%;
+    margin-top: 10px;
+}
+
+.fifth_heading h1 {
+    color: #2E4C5F;
+    margin-left: 20px;
+}
+
+.all_cont_fifth {
+    width: 80%;
+    height: 60%;
+    float: left;
+
+}
+
+.all_cont_fifth p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #2E4C5F;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.right_con_fifth {
+    width: 19%;
+    height: 60%;
+    float: right;
+
+
+}
+
+.right_con_fifth h1 {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    font-weight: 800;
+}
+
+@media(max-width:668px) {
+    .fifth_sec_all_containt {
+        display: none;
+    }
+}
+
+.sixsection_container {
+    width: 100%;
+    height: 500px;
+    background-color: #fdeceb;
+    float: left;
+}
+
+.sixsec_partfirst {
+    width: 100%;
+    height: 250px;
+
+    float: left;
+}
+
+.sixsec_second {
+    width: 100%;
+    height: 250px;
+
+    float: left;
+
+}
+
+.sixsec_heading1 h6 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+
+
+}
+
+.sixsec_heading1 {
+    width: 12%;
+    height: 25px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    margin-top: 3%;
+}
+
+.sixsec_heading2 h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 1200;
+
+    font-family: 'Montserrat', sans-serif;
+    color: #2e4c5f;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.sixsec_heading2 {
+    margin-top: 5px;
+}
+
+.sixsec_heading3 p {
+    color: #2e4c5f;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 50;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.main_container_sixt {
+    width: 80%;
+    height: 100%;
+
+    margin-left: 10%;
+}
+
+.hr_six hr {
+    margin: 0px;
+    height: 10px;
+    width: 100%;
+    float: left;
+
+    color: #2e3638;
+    background-color: #2e3638;
+
+}
+
+.container_all_six {
+    width: 100%;
+    height: 230px;
+    float: left;
+
+    margin-top: 10px;
+
+}
+
+.container1 {
+    width: 30%;
+    height: 40%;
+    float: left;
+    background-color: #ffffff;
+    margin-top: 1.4%;
+    margin-left: 30px;
+
+
+}
+
+.container2 {
+    width: 30%;
+    height: 40%;
+    float: left;
+    background-color: #ffffff;
+    margin-top: 1.4%;
+    margin-left: 30px;
+
+
+}
+
+.container3 {
+    width: 30%;
+    height: 40%;
+    float: left;
+    background-color: #ffffff;
+    margin-top: 1.4%;
+    margin-left: 30px;
+
+
+}
+
+.container4 {
+    width: 30%;
+    height: 40%;
+    float: left;
+    background-color: #ffffff;
+    margin-left: 30px;
+    margin-top: 1.4%;
+
+
+}
+
+.container5 {
+    width: 30%;
+    height: 40%;
+    float: left;
+    background-color: #ffffff;
+    margin-top: 1.4%;
+    margin-left: 30px;
+
+
+}
+
+.container6 {
+    width: 30%;
+    height: 40%;
+    float: left;
+    background-color: #ffffff;
+    ;
+    margin-left: 30px;
+    margin-top: 1.4%;
+
+
+}
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 1200;
+    font-family: inherit;
+    color: #314f61;
+}
+
+.container1:hover,
+.container2:hover,
+.container3:hover,
+.container4:hover,
+.container5:hover,
+.container6:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration-color: #E31E24;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+}
+
+@media(max-width:668px) {
+    .sixsec_partfirst {
+        width: 100%;
+        height: auto;
+    }
+
+    .sixsec_heading1 h1 {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 600;
+        display: flex;
+
+        font-family: 'Montserrat', sans-serif;
+        color: #2e4c5f;
+        font-style: italic;
+        letter-spacing: 0px;
+        text-transform: uppercase;
+        margin: 0px;
+    }
+
+    .sixsec_heading1 {
+        width: 40%;
+        height: 17px;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25%;
+        margin-top: 1%;
+    }
+
+    .sixsec_heading2 h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+
+        font-family: 'Montserrat', sans-serif;
+        color: #2e4c5f;
+        font-style: italic;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .sixsec_heading2 {
+        margin-top: 15px;
+    }
+
+    .sixsec_heading3 p {
+        color: #2e4c5f;
+        text-align: center;
+        font-size: 12.5px;
+        font-weight: 200;
+        letter-spacing: 1px;
+        margin-top: 10px;
+    }
+
+    .sixsec_heading3 {
+        margin-bottom: 15px;
+    }
+
+    .container1,
+    .container2,
+    .container3,
+    .container4,
+    .container5,
+    .container6 {
+        width: 80%;
+        height: 20%;
+        float: left;
+        background-color: #ffffff;
+        margin-top: 1.4%;
+
+
+
+    }
+
+}
+
+.seven_sec_container {
+    width: 100%;
+    height: 500px;
+    float: left;
+
+}
+
+.testominal_section {
+    width: 20%;
+    height: 25px;
+    background-color: red;
+    margin-left: 40%;
+    margin-top: 7%;
+
+}
+
+.testominal_section p {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-weight: 1200;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+.testimonial_personal {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.testimonial_personal img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background-image: url('https://mascofitbrand.com/wp-content/uploads/elementor/thumbs/Untitled-design-2024-10-01T171957.194-qux0ncht6hirwej829t5li9o14apatyj8810phlvtk.png');
+}
+
+.testimonial_personal img:hover {
+    cursor: grab;
+}
+
+.last_text_section p {
+    font-size: 45px;
+    text-align: center;
+
+    justify-content: center;
+    font-weight: 400;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 20px;
+
+    color: #314f61;
+    margin-right: 10%;
+
+}
+
+.hrhr hr {
+    width: 80%;
+    height: 10px;
+    background-color: black;
+    color: black;
+    margin-top: 30px;
+}
+
+.text_left_cont {
+    float: left;
+    margin-left: 160px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.text_right_cont {
+    float: right;
+    margin-right: 160px;
+    font-size: 20px;
+    margin-top: 5px;
+    color: red;
+}
+
+@media(max-width:768px) {
+    .seven_sec_container {
+        width: 100%;
+        height: auto;
+    }
+
+    .last_text_section p {
+        font-size: 25px;
+        text-align: center;
+
+        justify-content: center;
+        font-weight: 400;
+        margin-left: 10%;
+        text-align: center;
+        margin-top: 20px;
+
+        color: #314f61;
+        margin-right: 10%;
+
+    }
+
+    .testominal_section {
+        width: 35%;
+        height: 25px;
+        background-color: red;
+        margin-left: 35%;
+        margin-top: 7%;
+
+    }
+
+    .testominal_section p {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        color: white;
+        font-weight: 1000;
+        font-size: 13.4px;
+        font-style: italic;
+
+    }
+
+    .text_left_cont {
+        margin: 0px;
+        padding: 0px;
+        font-size: 14px;
+        margin-top: 2px;
+        margin-left: 5px;
+    }
+
+    .text_right_cont {
+        margin: 0px;
+        padding: 0px;
+        font-size: 14px;
+        margin-top: 2px;
+        margin-right: 5px;
+
+
+    }
+
+
+    .hrhr hr {
+        margin-top: 30px;
+    }
+
+}
+
+.all_eight_sec {
+    width: 100%;
+    height: 700px;
+    float: left;
+
+}
+
+.eight_container1 {
+    float: left;
+    width: 25%;
+    height: 90%;
+
+}
+
+.eight_container2 {
+    float: left;
+    width: 50%;
+    height: 90%;
+
+}
+
+.eight_container3 {
+    width: 25%;
+    height: 90%;
+    float: right;
+
+}
+
+.eigt_img1 {
+    background: hsla(0, 0%, 0%, 0.4);
+    width: 70%;
+    height: 46%;
+    background-image: url('https://mascofitbrand.com/wp-content/uploads/2025/07/blog-02-1536x864.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    float: right;
+    margin-right: 5%;
+    margin-top: 6%;
+
+
+    /* background: rgb(65, 60, 60,0.8);
+   background:  rgba(0,0,0,0.25);
+  */
+}
+
+.eigt_img2 {
+    width: 70%;
+    height: 46%;
+    background-image: url('sec8imag2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    float: right;
+    margin-right: 5%;
+    margin-top: 6%;
+}
+
+.Min_image {
+    width: 96%;
+    height: 98%;
+    background-image: url('sec8image3.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-left: 2%;
+}
+
+.eigt_img3_1 {
+    width: 70%;
+    height: 46%;
+    background-image: url('sec84image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    float: left;
+    margin-left: 5%;
+    margin-top: 6%;
+
+}
+
+.eigt_img3_2 {
+    width: 70%;
+    height: 46%;
+    background-image: url('sec85image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    float: left;
+    margin-left: 5%;
+    margin-top: 6%;
+}
+
+.content_eigt_img1 {
+    width: 80%;
+    height: 50%;
+    float: left;
+
+    position: relative;
+    bottom: 5px;
+    left: 10%;
+    top: 45%;
+    z-index: 1111;
+}
+
+.heading_eight h6 {
+    color: black;
+    width: 35%;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: italic;
+    z-index: 9999;
+}
+
+.para_eight p {
+    font-size: 22px;
+    font-weight: 2000;
+    font-style: initial;
+
+    font-style: italic;
+}
+
+.time_date_sec {
+    font-weight: 1800;
+    font-size: 18px;
+
+
+}
+
+.para_eight p:hover,
+.heading_eight h6:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+
+}
+
+.main_container_image {
+    width: 90%;
+    height: 46%;
+
+    float: left;
+    position: relative;
+    top: 50%;
+    left: 5%;
+}
+
+.first_heading h6 {
+    color: white;
+    width: 20%;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: italic;
+    z-index: 9999;
+
+}
+
+.second_para p {
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 1200;
+    color: rgb(0, 42, 253);
+    margin-top: 10px;
+
+}
+
+.third_date_time {
+    color: black;
+    margin-top: 10px;
+}
+
+@media(max-width:668px) {
+    .all_eight_sec {
+        width: 100%;
+        height: auto;
+    }
+
+    .eight_container1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .eight_container2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .eight_container3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .eigt_img1 {
+        width: 98%;
+        height: 200px;
+        margin-left: 1%;
+
+    }
+
+    .eigt_img2 {
+        width: 98%;
+        height: 200px;
+        margin-left: 1%;
+
+    }
+
+    .eigt_img3_2 {
+        width: 98%;
+        height: 200px;
+        margin-left: 1%;
+    }
+
+    .Min_image {
+        width: 98%;
+        height: 200px;
+        margin-left: 1%;
+        position: relative;
+        bottom: 0px;
+        margin: 0px;
+        margin-top: 10px;
+    }
+
+    .eigt_img3_1 {
+        width: 98%;
+        height: 200px;
+        margin-left: 1%;
+
+
+    }
+
+    .eigt_img3_2 {
+        width: 98%;
+        height: 200px;
+        margin-left: 1%;
+
+    }
+
+}
+
+.nine_all_container {
+    width: 100%;
+    height: 600px;
+    background-image: url('https://mascofitbrand.com/wp-content/uploads/2025/01/Untitled-design-2024-08-20T162055.639.jpg');
+    /* background:  hsla(0, 4%, 14%, 1.1); */
+    float: left;
+}
+
+.text_box_nine {
+
+    height: 350px;
+    width: 40%;
+    float: right;
+    margin-top: 150px;
+    margin-right: 10%;
+}
+
+.scrooll_effects {
+    width: 100%;
+    float: left;
+    height: 15%;
+
+    margin-top: 1%;
+}
+
+.text_container_nine {
+    width: 24%;
+    height: 30px;
+    background-color: red;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    font-size: 21px;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+
+}
+
+.para_nine_sec h2 {
+
+    position: relative;
+    top: 20px;
+    left: 2px;
+    font-size: 65px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
+    letter-spacing: -1px;
+    display: inline-block;
+
+
+}
+
+.nine_button button {
+    width: 40%;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    left: 170px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.nine_button button:hover {
+    color: brown;
+    background-color: white;
+}
+
+.marquee2 {
+    font-size: 55px;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+.marquee2 span{
+        animation: scroll 10s linear infinite;
+}
+@media(max-width:668px){
+    .nine_all_container{
+        width: 100%;
+        height: auto;
+    }
+    .text_box_nine{
+        text-align: center;
+       position: relative;
+       top: 30px;
+       left: 10%;
+        width: 100%;
+        height: 300px;
+        background-position: center;
+    }
+    .text_container_nine{
+        width:25%;
+        height: 25px;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5px;
+        margin-left:5%;
+    }
+    .para_nine_sec h2{
+        font-size: 37px;
+    }
+    .nine_button button{
+        margin: 0px;
+        padding: 0px;
+        width: 30%;
+        height: 30px;
+        font-size: 12px;
+        position: relative;
+        left: 2%;
+}
+.marquee2{
+        font-size: 35px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-align: center;
+    animation-delay:4sec;
+    margin-top: -100px;
+}
+.scrooll_effects{
+    position: relative;
+    bottom: 20px;
+}
+}
+/* .ten_container{
+    width: 100%;
+    height: auto;
+   
+} */
+.ten_section{
+    width: 100%;
+    height: 1000px;
+    background-color: #e31e24;
+    float: left;
+  
+}
+.ten_container_1{
+    float: left;
+    width: 50%;
+    height: 70%;
+  
+ 
+}
+.ten_container_2{
+    float: right;
+    width: 50%;
+    height: 70%;
+    
+}
+.ten_button_class{
+    width: 80%;
+    float: left;
+    background-color: white;
+    position: relative;
+    left: 9%;
+    top:12%;
+    padding: 10px;
+    display: flex;          /* ⭐ MAIN FIX */
+    align-items: center;
+}
+
+.ten_button_class input{
+    width: 70%;
+    height: 45px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+
+.ten_button_class input::placeholder{
+    font-size: 21px;
+}
+
+
+
+
+.ten_button_class button{
+    width: 160px;
+    height: 45px;
+    background-color: #ff0011;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+.footer1{
+   width: 35%;
+   height: 100%;
+   float: left;
+   margin-top: 140px;
+    
+}
+.foter_heading1{
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    display: flex;
+    position: relative;
+    left: 22%;
+
+}
+.foter_heading1 ul{
+    list-style-type: none;
+}
+.headerUl1 ul li{
+    color: white;
+    position: relative;
+    left: 22%;
+    top: 10%;
+    list-style-type:none;
+    font-size:22px;
+   
+}
+.headerUl1 {
+    position: relative;
+    top: 2%;
+}
+.headerUl1 li{
+    margin-top: 10px;
+}
+.footer2{
+     width: 35%;
+   height: 100%;
+   float: left;
+   margin-top: 140px;
+   float:right;
+
+}
+.foter_heading2{
+     color: white;
+    font-size: 24px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 160px;
+  
+   
+
+}
+.headeraddress{
+    font-size: 22px;
+    color: white;
+    font-weight: 800;
+     position: relative;
+    right: 80px;
+    top: 20px;
+    line-height: 28px;
+}
+.foot1{
+    width: 44%;
+    height: 100%;
+    float: left;
+}
+.hrcontent hr{
+    width: 90%;
+    height: 0.4px;
+    color: white;
+    background-color: white;
+}
+.hrcontent{
+     position: relative;
+    top:5%;
+    right: 5%;
+}
+.textten{
+    position: relative;
+    top:10%;
+    font-size: 18px;
+    font-weight: 400;
+    left: 5%;
+    color: white;
+}
+.listallcontaent ul{
+    position: relative;
+    top: 100px;
+    left: 10%;
+    font-size: 24px;
+    color: white;
+}
+.listallcontaent li{
+    margin-top: 13px;
+}
+.foot2{
+    float: left;
+    width: 44%;
+    height: 100%;
+    position: relative;
+    left: 2%;
+   
+}
+.secondelistten ul{
+    position: relative;
+    top:100px;
+    left: 10%;
+    font-size: 23px;
+    color: white;
+}
+.secondelistten ul li{
+    margin-top: 15px;
+}
+.lastfoter{
+    width: 100%;
+    height: 30%;
+    float: left;
+}
+.bottom_footer{
+    width: 100%;
+    height: 100%;
+    float: right;
+   
+}
+.all_icon_footer{
+  position: relative;
+  left:10%;
+  top:40%;
+}
+.footericon1 i{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 1px solid #f9c6c9;
+}
+.all_icon_footer{
+    display: flex;
+    gap: 13px;
+}
+.footericon1 i:hover{
+    transform: scale(1.4);
+}
+
+.right_iconfooter{
+    position: relative;
+    left: 86%;
+    top:10%;
+}
+.icon_right i {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: red;
+   
+}
+.icon_right i:hover{
+    transform: scale(1.4);
+    
+}
+.footer_text{
+    position: relative;
+    top: 30%;
+    left: 30%;
+
+}
+.lst1footer ul{
+    font-size: 20px;
+    color: white;
+    list-style-type:none;
+}
+.lst1footer li{
+    margin-top: 4px;
+}
+@media(max-width:668px){
+    .ten_section{
+    width: 100%;
+    height: auto;
+}
+.ten_container_1{
+    float: left;
+    width: 100%;
+    height: auto;
+  
+ 
+}
+.ten_container_2{
+    float: right;
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+.ten_button_class{
+    width: 90%;
+    margin: 20px auto;
+    background-color: white;
+    display: flex;                
+    flex-direction: column;       
+    gap: 10px;
+    /* padding: 10px; */
+}
+
+.ten_button_class input{
+    width: 80%;
+    height: 80%;
+    border: none;
+    outline: none;
+    font-size: 26px;
+    padding-left: 5px;
+    position: relative;
+    top: 30px;
+    left: 0px;
+}
+
+.ten_button_class input::placeholder{
+    font-size: 20px;
+  
+ 
+ 
+}
+
+.ten_button_class button{
+    width: 40%;
+    height: 55px;
+    background-color: #ff0011;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: -10px;
+    left: 120px;
+}
+
+.footer1{
+   width: 35%;
+   height: 100%;
+   float: left;
+   margin-top: 20px;
+    
+}
+.foter_heading1{
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    display: flex;
+    position: relative;
+    left: 20%;
+
+}
+
+.headerUl1 ul li{
+    color: white;
+    position: relative;
+    left: 15%;
+    top: 5%;
+    list-style-type:none;
+    font-size:18px;
+   
+}
+.headerUl1 {
+    position: relative;
+    top: 2%;
+}
+
+.footer2{
+     width: 35%;
+   height: 100%;
+   float: right;
+   margin-top: 20px;
+   float:right;
+  
+
+}
+.foter_heading2{
+     color: white;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 110px;
+  
+   
+
+}
+.headeraddress{
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+     position: relative;
+    right: 60px;
+    top: 20px;
+    line-height: 28px;
+}
+.foot1{
+    width: 44%;
+    height: 100%;
+    float: left;
+    
+}
+.hrcontent hr{
+    width: 90%;
+    height: 0.4px;
+    color: white;
+    background-color: white;
+    margin-top: 10px;
+}
+.hrcontent{
+     position: relative;
+    top:5%;
+    right: 5%;
+}
+.textten{
+    position: relative;
+   margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    left: 5%;
+    color: white;
+}
+.listallcontaent ul{
+    position: relative;
+    top: 10px;
+    left: 10%;
+    font-size: 20px;
+    color: white;
+}
+.listallcontaent li{
+    margin-top: 13px;
+}
+.foot2{
+    float: left;
+    width: 44%;
+    height: 100%;
+    position: relative;
+    left: 2%;
+   
+}
+.secondelistten ul{
+    position: relative;
+    top:4px;
+    left: 10%;
+    font-size: 20px;
+    color: white;
+}
+.secondelistten ul li{
+    margin-top: 15px;
+}
+.lastfoter{
+    width: 100%;
+    height: 30%;
+    float: left;
+}
+.bottom_footer{
+    width: 100%;
+    height: 100%;
+    float: right;
+    margin-top: 10px;
+   
+}
+.all_icon_footer{
+  /* position: relative;
+  left:10%;
+  top:60%; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: relative;
+  left: 20%;
+  top: 20px;
+
+}
+.footericon1 i{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 1px solid #f9c6c9;
+}
+.all_icon_footer{
+    display: flex;
+    gap: 13px;
+}
+
+.right_iconfooter{
+    position: relative;
+    left: 65%;
+    top:-120px;
+    
+}
+.icon_right i {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: red;
+   
+}
+
+.footer_text{
+ display: flex;
+ text-align: center;
+
+}
+.lst1footer ul{
+    font-size: 20px;
+    color: white;
+    list-style-type:none;
+    margin-top: 25px;
+}
+.lst1footer li{
+    margin-top: 5px;
+}
+.lst1footer{
+    margin-top: 20px;
+}
+}
